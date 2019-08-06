@@ -1,2 +1,2 @@
-# PHPTelegramBot
-Kumpulan PHP Untuk Bot Telegram
+# PythonTelegramBot
+Kumpulan Script Python Untuk Bot Telegram
