@@ -23,7 +23,7 @@ def action(msg):
         os.system('shutdown -s')
         telegram_bot.sendMessage(chat_id, str("Shutdown request already sent, "+os.getenv('COMPUTERNAME')+" will shutdown in a few minutes."))
         telegram_bot.sendMessage (chat_id, str("See you next time, Sir."))
-    if command == '/help':
+    elif command == '/help':
         telegram_bot.sendMessage (chat_id, str("Command List : \n /status Check connecting status \n /shutdown Turn Off PC"))
         
 telegram_bot = telepot.Bot('PASTE YOUR BOT API HERE')
