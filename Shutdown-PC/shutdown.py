@@ -6,8 +6,6 @@ import json
 
 from telepot.loop import MessageLoop
 
-now = datetime.datetime.now()
-
 def action(msg):
     chat_id = msg['chat']['id']
     command = msg['text']
